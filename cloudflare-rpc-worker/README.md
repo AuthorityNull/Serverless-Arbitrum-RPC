@@ -25,7 +25,7 @@ LOGGING_ENABLED - to enable console logging from the worker.
 
 ## KV namespaces
 
-In addition, you will need to define the following KV Namespace:
+When using the code that utilizes KV, you will need to define the following KV Namespace:
 
 RPC_ERROR_LIST - A KV store that keeps track of failed RPC calls. This namespace is used to ensure all FAILED RPC URLs get filtered out of the ARB_RPC_LIST
 * NOTE: Failed RPCs neeed to be removedd from this list in order to serve more RPC requests
