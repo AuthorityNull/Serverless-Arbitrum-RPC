@@ -1,0 +1,11 @@
+name = "livepeer-reflare-rpc"
+workers_dev = true
+account_id = ""
+compatibility_date = "2022-08-31"
+main = "./dist/index.js"
+
+[vars]
+INIT_UPSTREAM_CONFIG = '{ "upstream": [{"enabled":true,"protocol": "https","port": 443, "domain" : "arb1.arbitrum.io", "path": "/rpc","weight":25}]}'
+
+[build]
+command = "npm run build"

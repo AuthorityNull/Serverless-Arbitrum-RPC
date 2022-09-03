@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "livepeer-reflare-rpc",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "module": "./dist/index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Mike Zupper <me@mikezupper.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "wrangler": "^2.0.28"
+  },
+  "dependencies": {
+    "livepeer-rpcflare": "^1.0.6-a"
+  }
+}
