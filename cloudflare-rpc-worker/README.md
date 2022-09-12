@@ -1,6 +1,7 @@
 # Get started 
 
-This project uses Cloudflare Workers to proxy Arbitrum' RPC endpoint.
+This project uses Cloudflare Workers to proxy Arbitrum' RPC endpoint. <br>
+Watch the <a href="https://www.youtube.com/watch?v=kL5pHMx6ecw">video walkthrough</a>.
 
 # Configuration
 
